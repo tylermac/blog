@@ -52,9 +52,9 @@ language: en
 logo_text: Tyermac.Net # Add text logo instead of logo image
 menu:
   Home: /
-  Archives: archives
   Categories: categories
   Tags: tags
+  Archives: archives
   
 # Content
 excerpt_link: Read More
@@ -81,6 +81,8 @@ markdown:
     - markdown-it-ins
     - markdown-it-sub
     - markdown-it-sup
+    - markdown-it-deflist
+    - markdown-it-smartarrows
   anchors:
     level: 2
     collisionSuffix: 'v'

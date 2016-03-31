@@ -23,6 +23,8 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
     "jstransformer-marked": "^1.0.1",
-    "jstransformer-stylus": "^1.0.0"
+    "jstransformer-stylus": "^1.0.0",
+    "markdown-it-deflist": "^2.0.1",
+    "markdown-it-smartarrows": "^1.0.1"
   }
 }
