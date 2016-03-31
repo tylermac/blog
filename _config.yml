@@ -48,3 +48,19 @@ alias:
 category_generator:
   per_page: 20
 language: en
+# Header
+logo_text: Tyermac.Net # Add text logo instead of logo image
+menu:
+  Home: /
+  Archives: archives
+  Categories: categories
+  Tags: tags
+  
+# Content
+excerpt_link: Read More
+toc         : true #  Whether to show the table of contents in articles
+fancybox    : false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
