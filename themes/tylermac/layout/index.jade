@@ -1,0 +1,7 @@
+if page.posts
+  - page.posts.each(function (post) {
+    p: a.post-title-link(href= url_for(post.path))= post.title
+  -})
+else
+  h1= page.title
+  != page.content

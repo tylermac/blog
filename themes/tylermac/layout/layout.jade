@@ -1,0 +1,17 @@
+doctype html
+html(lang=config.language)
+  head
+    title= theme.title
+    != open_graph()
+    style
+      :stylus
+        body
+          background #efefef
+  body
+    header
+      h1= theme.title + (is_home() ? ' - home' : '')
+      nav
+    section#content
+      != body
+    footer
+      p Copyright (c) #{config.title}
